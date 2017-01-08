@@ -1,14 +1,6 @@
-demo { name = 'consolecolors',
-   projects = {
-      app {
-         icon = 'icon/bengine.ico',
-         src = {
-            'src/*.cpp'
-         },
-         libs = {
-            'core',
-            'core-id'
-         }
-      }
+demo 'consolecolors' {
+   app {
+      icon 'icon/bengine.ico',
+      link_project { 'core', 'core-id' }
    }
 }
