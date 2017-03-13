@@ -1,5 +1,6 @@
-#include <be/core/console.hpp>
+﻿#include <be/core/console.hpp>
 #include <be/core/id.hpp>
+#include <be/core/lifecycle.hpp>
 #include <iostream>
 
 using namespace be;
@@ -30,6 +31,8 @@ S get_color_name(LogColor color) {
 ///////////////////////////////////////////////////////////////////////////////
 int main(int argc, char** argv) {
    BE_IGNORE2(argc, argv);
+
+   be::CoreInitLifecycle init;
 
    for (int offset = 0; offset <= 8; offset += 8) {
       for (int fg = 0; fg < 16; ++fg) {
