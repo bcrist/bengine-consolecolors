@@ -1,4 +1,4 @@
-﻿#include <be/core/console.hpp>
+#include <be/core/console.hpp>
 #include <be/core/id.hpp>
 #include <be/core/lifecycle.hpp>
 #include <iostream>
