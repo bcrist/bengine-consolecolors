@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\consolecolors.cpp">
+    <ClCompile Include="src-consolecolors\consolecolors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

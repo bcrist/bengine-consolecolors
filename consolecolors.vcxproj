@@ -43,7 +43,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup />
   <ItemGroup>
-    <ClCompile Include="src\consolecolors.cpp" />
+    <ClCompile Include="src-consolecolors\consolecolors.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
